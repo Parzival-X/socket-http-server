@@ -49,7 +49,6 @@ class WebTestCase(unittest.TestCase):
 
         self.assertEqual(response.getcode(), 405)
 
-
     def test_get_sample_text_content(self):
         """
         A call to /sample.txt returns the correct body
@@ -190,7 +189,7 @@ class WebTestCase(unittest.TestCase):
 
     def test_ok_response_at_root_index(self):
         """
-        A call to / at least yields a 200 OK response 
+        A call to / at least yields a 200 OK response
         """
 
         directory = ''

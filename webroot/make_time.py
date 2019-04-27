@@ -3,7 +3,7 @@
 """
 make_time.py
 
-simple script that returns and HTML page with the current time
+simple script that returns an HTML page with the current time
 """
 
 import datetime
